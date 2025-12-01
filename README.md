@@ -1,2 +1,2 @@
 # EPL-Team-Style-Analysis-Match-Prediction-System
-A data-driven system that analyzes EPL team playstyles and predicts match outcomes using clustering, PCA/MDS, and machine learning.
+A comprehensive analysis and prediction system for English Premier League data, showcasing end-to-end data preprocessing, team style profiling, machine learning modeling, and final visualization dashboards.
