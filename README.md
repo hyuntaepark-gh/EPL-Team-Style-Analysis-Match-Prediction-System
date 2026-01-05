@@ -1,38 +1,28 @@
-# EPL-Team-Style-Analysis-Match-Prediction-System
-
-A comprehensive analysis and prediction system for English Premier League data, showcasing end-to-end data preprocessing, team style profiling, machine learning modeling, and final visualization dashboards.
-
----
+# EPL Team Style Analysis & Match Prediction System
 
 ## 📌 Project Overview
-This project analyzes English Premier League (EPL) team playing styles and predicts match outcomes using machine learning.  
-The workflow includes data preprocessing, exploratory analysis, clustering, dimensionality reduction (PCA/MDS), and predictive modeling.
+This project applies unsupervised machine learning (KMeans clustering) to identify playing style patterns among English Premier League teams based on match-level performance statistics.
 
----
+## 🔍 Methodology
+- Feature engineering from match-level data
+- Team-level aggregation of performance metrics
+- Standardization and KMeans clustering
+- Cluster interpretation and style labeling
+- PCA-based visualization for cluster validation
 
-## ⚽ Key Features
-
-### 🔹 Team Style Profiling
-- K-Means clustering  
-- PCA / MDS visualizations  
-- Offensive vs defensive team signatures  
-- Similarity analysis between teams
-
-### 🔹 Match Prediction Model
-- Logistic Regression / Random Forest / XGBoost  
-- Home & away features  
-- Feature engineering  
-- Evaluation (accuracy, F1-score, confusion matrix)
-
-### 🔹 Dashboards & Visualization
-- Tableau team-style dashboard  
-- Python interactive dashboard (Plotly / Streamlit)
-
----
+## 📊 Key Insights
+- Teams naturally cluster into four playing styles:
+  - Attacking
+  - Balanced
+  - Aggressive
+  - Struggling / Passive
+- PCA visualization explains ~87% of variance, showing clear separation between styles.
+- High attacking output is relatively rare across the league.
 
 ## 📁 Project Structure
 
-```text
+```
+
 project/
 ├── data/                 # Raw & processed EPL datasets
 ├── notebooks/            # EDA, clustering, modeling notebooks
@@ -43,3 +33,21 @@ project/
 │   └── visualization.py
 ├── dashboard/            # Tableau or Streamlit dashboards
 └── README.md             # Project documentation
+
+```
+
+## 🛠 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib
+
+## 📁 Files
+- `EPL Team Style Analysis & Match Prediction System.ipynb`: Main analysis notebook
+
+## 🚀 Future Improvements
+- Multi-season data integration
+- Tactical features (pressing intensity, pass networks)
+- Match outcome prediction models
+
+---
