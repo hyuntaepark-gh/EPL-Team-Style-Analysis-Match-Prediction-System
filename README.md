@@ -1,7 +1,7 @@
-# EPL Team Style Analysis & Match Prediction System
+<img width="1713" height="1139" alt="image" src="https://github.com/user-attachments/assets/85591ba7-1421-45e5-a8aa-05777af129c0" /># EPL Team Style Analysis & Match Prediction System
 
 ## 📌 Project Overview
-This project applies unsupervised machine learning (KMeans clustering) to identify playing style patterns among English Premier League teams based on match-level performance statistics.
+This project applies unsupervised machine learning (KMeans clustering) to identify playing style patterns among English Premier League teams based on match-level performance statistics, supporting data-driven tactical analysis and team profiling.
 
 ## 🔍 Methodology
 - Feature engineering from match-level data
@@ -26,11 +26,6 @@ This project applies unsupervised machine learning (KMeans clustering) to identi
 project/
 ├── data/                 # Raw & processed EPL datasets
 ├── notebooks/            # EDA, clustering, modeling notebooks
-├── src/                  # Python scripts
-│   ├── preprocessing.py
-│   ├── clustering.py
-│   ├── modeling.py
-│   └── visualization.py
 ├── dashboard/            # Tableau or Streamlit dashboards
 └── README.md             # Project documentation
 
@@ -44,6 +39,7 @@ project/
 
 ## 📁 Files
 - `EPL Team Style Analysis & Match Prediction System.ipynb`: Main analysis notebook
+- `README.md`: Project documentation
 
 ## 🚀 Future Improvements
 - Multi-season data integration
