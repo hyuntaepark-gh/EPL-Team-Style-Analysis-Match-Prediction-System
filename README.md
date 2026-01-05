@@ -1,4 +1,4 @@
-<img width="1713" height="1139" alt="image" src="https://github.com/user-attachments/assets/85591ba7-1421-45e5-a8aa-05777af129c0" /># EPL Team Style Analysis & Match Prediction System
+# EPL Team Style Analysis & Match Prediction System
 
 ## 📌 Project Overview
 This project applies unsupervised machine learning (KMeans clustering) to identify playing style patterns among English Premier League teams based on match-level performance statistics, supporting data-driven tactical analysis and team profiling.
