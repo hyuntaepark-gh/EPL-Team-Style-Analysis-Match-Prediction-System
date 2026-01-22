@@ -6,8 +6,12 @@ This project applies unsupervised machine learning (KMeans clustering)
 to identify playing style patterns among English Premier League teams
 based on match-level performance statistics.
 
+---
+
 ## 📌 Project Overview
 This project applies unsupervised machine learning (KMeans clustering) to identify playing style patterns among English Premier League teams based on match-level performance statistics, supporting data-driven tactical analysis and team profiling.
+
+---
 
 ## 🔍 Methodology
 - Feature engineering from match-level data
@@ -15,6 +19,8 @@ This project applies unsupervised machine learning (KMeans clustering) to identi
 - Standardization and KMeans clustering
 - Cluster interpretation and style labeling
 - PCA-based visualization for cluster validation
+
+---
 
 ## 📊 Key Insights
 - Teams naturally cluster into four playing styles:
@@ -24,6 +30,29 @@ This project applies unsupervised machine learning (KMeans clustering) to identi
   - Struggling / Passive
 - PCA visualization explains ~87% of variance, showing clear separation between styles.
 - High attacking output is relatively rare across the league.
+
+---
+
+## 🛠 Tech Stack
+- Python
+- Pandas, NumPy
+- Scikit-learn
+- Matplotlib
+
+---
+
+## 📁 Files
+- `EPL Team Style Analysis & Match Prediction System.ipynb`: Main analysis notebook
+- `README.md`: Project documentation
+
+---
+
+## 🚀 Future Improvements
+- Multi-season data integration
+- Tactical features (pressing intensity, pass networks)
+- Match outcome prediction models
+
+---
 
 ## 📁 Project Structure
 
@@ -36,20 +65,3 @@ project/
 └── README.md             # Project documentation
 
 ```
-
-## 🛠 Tech Stack
-- Python
-- Pandas, NumPy
-- Scikit-learn
-- Matplotlib
-
-## 📁 Files
-- `EPL Team Style Analysis & Match Prediction System.ipynb`: Main analysis notebook
-- `README.md`: Project documentation
-
-## 🚀 Future Improvements
-- Multi-season data integration
-- Tactical features (pressing intensity, pass networks)
-- Match outcome prediction models
-
----
