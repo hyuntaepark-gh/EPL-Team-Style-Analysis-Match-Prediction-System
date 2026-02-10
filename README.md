@@ -1,6 +1,6 @@
 # EPL Team Style Analysis & Match Prediction System
 
-![EPL Team Styles PCA](assets/epl_pca_team_styles.png)
+![EPL Team Styles PCA](screenshot/epl_pca_team_styles.png)
 
 This project applies unsupervised machine learning (KMeans clustering)
 to identify playing style patterns among English Premier League teams
